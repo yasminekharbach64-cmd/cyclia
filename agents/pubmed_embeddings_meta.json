@@ -1,0 +1,10 @@
+{
+  "model_name": "paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dim": 384,
+  "num_papers": 2527,
+  "normalized": true,
+  "kb_file": "agents\\pubmed_knowledge_base.json",
+  "kb_total_papers": 2527,
+  "build_time_seconds": 80.9,
+  "max_abstract_chars": 2000
+}

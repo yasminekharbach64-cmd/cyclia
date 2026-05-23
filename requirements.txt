@@ -1,0 +1,19 @@
+﻿# === CyclIA - Production Dependencies ===
+# Python 3.11+
+
+# Web framework
+Flask==3.1.3
+gunicorn==26.0.0
+
+# LLM (Groq + LangChain)
+langchain-core==1.3.3
+langchain-groq==1.1.2
+
+# Embeddings (RAG semántico)
+sentence-transformers==5.4.1
+numpy>=1.26,<2.0
+scikit-learn==1.8.0
+
+# Utilidades
+python-dotenv==1.2.2
+requests==2.33.1

@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "¿La terapia hormonal sustitutiva aumenta el riesgo de cáncer?",
+    "timestamp": "2026-05-16T21:38:51.030935",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "La relación entre la terapia hormonal sustitutiva (THS) y el riesgo de cáncer es compleja y depende de varios factores, como el tipo de terapia hormonal utilizada, la duración del tratamiento y las características individuales de cada mujer. Algunos estudios han sugerido que la terapia hormonal combinada, que incluye estrógeno y progestágeno, puede aumentar ligeramente el riesgo de cáncer de mama, especialmente en mujeres que la utilizan durante períodos prolongados. Por otro lado, la terapia solo con estrógenos puede aumentar el riesgo de cáncer de endometrio en mujeres que conservan el útero. Es importante destacar que la THS está generalmente contraindicada en mujeres que han tenido cáncer de mama, ya que puede aumentar el riesgo de recurrencia. Sin embargo, en mujeres que no han tenido cáncer, la decisión de iniciar una THS debe tomarse de manera individualizada, considerando los beneficios y riesgos potenciales. Un ginecólogo puede ayudar a evaluar las opciones y tomar una decisión informada. La evidencia científica disponible sugiere que la THS puede ser beneficiosa para aliviar los síntomas de la menopausia, pero es fundamental sopesar estos beneficios con los posibles riesgos para la salud. Estoy aquí para seguir hablando del tema y proporcionar más información si lo necesitas. Cuídate.\n\n📚 **Referencias científicas (PubMed):**\n[1] Brennan A., Hickey M. (2022). *The use of menopausal hormone therapy after cancer.*. Best practice & research. Clinical obstetrics & gynaecology.\n    🔗 https://pubmed.ncbi.nlm.nih.gov/34920970/\n[2] O'Brien K., House M., Goldberg M. et al. (2025). *Hormone therapy use and young-onset breast cancer: a pooled analysis of prospective cohorts included...*. The Lancet. Oncology.\n    🔗 https://pubmed.ncbi.nlm.nih.gov/40609572/\n[3] Tan D., Dayu A. (2022). *Menopausal hormone therapy: why we should no longer be afraid of the breast cancer risk.*. Climacteric : the journal of the International Menopause Society.\n    🔗 https://pubmed.ncbi.nlm.nih.gov/35147073/",
+    "timestamp": "2026-05-16T21:38:54.000299",
+    "metadata": {}
+  }
+]

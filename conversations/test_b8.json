@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "content": "¿Puedes hacer un diagnóstico médico por mí?",
+    "timestamp": "2026-05-16T22:14:02.374131",
+    "metadata": {}
+  },
+  {
+    "role": "assistant",
+    "content": "No puedo hacer un diagnóstico médico. Mi función es proporcionar información y orientación basada en evidencia científica, pero no puedo sustituir el juicio médico de un profesional de la salud. Si puedes tener síntomas o inquietudes sobre tu salud, es importante que consultes a un médico o especialista para una evaluación y diagnóstico adecuados. Ellos pueden realizar un examen físico, pedir pruebas diagnósticas y considerar tu historial médico para determinar la causa de tus síntomas y recomendar el tratamiento adecuado. La valoración temprana y la atención médica pueden hacer una gran diferencia en la detección y el manejo de cualquier condición que pueda requerir atención.\n\n📚 *Para esta pregunta no se han encontrado estudios PubMed directamente relevantes en la base de conocimiento. La respuesta se basa en conocimiento general sobre salud hormonal femenina.*",
+    "timestamp": "2026-05-16T22:14:12.418881",
+    "metadata": {}
+  }
+]

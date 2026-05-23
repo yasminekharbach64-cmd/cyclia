@@ -1,0 +1,52 @@
+﻿# === Files to exclude from Docker build context ===
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+
+# Secrets
+.env
+.env.local
+
+# Git
+.git/
+.gitignore
+
+# Backups (los BACKUP_*.py NO van a producción)
+*_BACKUP_*.py
+*_BACKUP.py
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs locales
+logs/*.log
+*.log
+
+# Tests / scratch
+test_llm.py
+test_local_llm.py
+test_output.txt
+
+# Conversaciones locales (no van a producción)
+conversations/
+
+# Archivos viejos
+requirements_OLD_BACKUP.txt
+requirements_full.txt
+requirements_full_v2.txt
+
+# Imagen builds
+*.tar
