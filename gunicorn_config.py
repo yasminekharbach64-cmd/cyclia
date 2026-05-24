@@ -1,38 +1,38 @@
-Ôªø"""
+"""
 Gunicorn configuration for CyclIA production deployment.
 
-Servidor WSGI de producci√≥n para Flask. Se usa en Docker/Render
-en lugar del servidor de desarrollo de Flask (que no es apto para producci√≥n).
+Servidor WSGI de producciÛn para Flask. Se usa en Docker/Render
+en lugar del servidor de desarrollo de Flask (que no es apto para producciÛn).
 """
 
 import os
 
 # === Server socket ===
-# Puerto din√°mico (Render asigna autom√°ticamente v√≠a variable $PORT)
+# Puerto din·mico (Render asigna autom·ticamente vÌa variable $PORT)
 bind = f"0.0.0.0:{os.getenv('PORT', '5000')}"
 
 # === Worker processes ===
 # 2 workers para tier gratuito de Render (512MB RAM).
-# En producci√≥n con m√°s recursos: (2 * CPU_count) + 1
-workers = 2
+# En producciÛn con m·s recursos: (2 * CPU_count) + 1
+workers = 1
 
-# Tipo de worker: sync (s√≠ncrono) ‚Äî adecuado para cargas moderadas
+# Tipo de worker: sync (sÌncrono) ó adecuado para cargas moderadas
 # y para modelos que mantienen estado en memoria (embeddings PubMed).
 worker_class = "sync"
 
-# Threads por worker (mejora concurrencia sin gastar m√°s RAM)
+# Threads por worker (mejora concurrencia sin gastar m·s RAM)
 threads = 2
 
 # === Timeouts ===
-# Tiempo m√°ximo por petici√≥n. Generoso porque la primera query
+# Tiempo m·ximo por peticiÛn. Generoso porque la primera query
 # carga embeddings (~10-15s) y luego se mantienen en memoria.
 timeout = 120
 
-# Mantener conexiones abiertas para reutilizaci√≥n
+# Mantener conexiones abiertas para reutilizaciÛn
 keepalive = 5
 
 # === Logging ===
-accesslog = "-"   # stdout (Docker/Render capturan logs desde ah√≠)
+accesslog = "-"   # stdout (Docker/Render capturan logs desde ahÌ)
 errorlog = "-"    # stderr
 loglevel = "info"
 
